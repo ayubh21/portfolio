@@ -1,5 +1,4 @@
 import './App.css'
-import Navbar from './components/navbar'
 import  JavascriptLogo from "../src/assets/javascript.svg"
 import  PythonLogo  from "../src/assets/python.svg"
 import  TypescriptLogo  from "../src/assets/typescript-icon.svg"
@@ -15,19 +14,15 @@ import PostgresLogo from "../src/assets/postgresql.svg"
 import ResumeFile from "../src/assets/husseins_resume.pdf"
 import ProjectCard from './components/recent-work-card'
 import {motion} from "framer-motion"
-import { useState } from 'react'
 import LinkedinInIcon from "../src/assets/linkedin-svgrepo-com.svg"
 import GithubIcon from "../src/assets/github.svg"
 import X from "../src/assets/x.svg"
 
-import {Linkedin, LinkedinIcon, Mail, MapIcon, MapPin, Phone } from 'lucide-react'
 
 
 
 function App() {
   const icons = [JavascriptLogo,PythonLogo,TypescriptLogo,TailwindcssLogo,ReactLogo,NextLogo,DockerIcon,GoLogo,MysqlLogo,DotnetLogo,AWSLogo,PostgresLogo]
-
-    const [isHovered, setIsHovered] = useState(false);
   return (
     <>
     <div className=''>
@@ -96,7 +91,6 @@ function App() {
            <span className="inline-flex items-center rounded-md bg-black px-2 py-1 text-sm font-medium text-white ring-1 ring--400/30 ring-inset">
            Postgres DB
             </span> 
-            {isHovered ? <a className="absolute bottom-100  bg-white p-4 ring-1 ring-white  ring-inset rounded-full font-semibold  text-black z-50" href="https://www.yegmuslimconnect.ca">Visit Website</a>: null}
             </div>
           </div>
       </section>

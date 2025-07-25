@@ -1,4 +1,3 @@
-import { useState } from "react";
 
 interface ProjectCardProps {
     img: string;
@@ -7,7 +6,7 @@ interface ProjectCardProps {
     tool: string;
 }
 
-export default function ProjectCard({img, src, tool}: ProjectCardProps) {
+export default function ProjectCard({src}: ProjectCardProps) {
     
     return (
         <div
