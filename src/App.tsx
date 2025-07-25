@@ -16,7 +16,11 @@ import ResumeFile from "../src/assets/husseins_resume.pdf"
 import ProjectCard from './components/recent-work-card'
 import {motion} from "framer-motion"
 import { useState } from 'react'
-import { Mail, MapIcon, MapPin, Phone } from 'lucide-react'
+import LinkedinInIcon from "../src/assets/linkedin-svgrepo-com.svg"
+import GithubIcon from "../src/assets/github.svg"
+import X from "../src/assets/x.svg"
+
+import {Linkedin, LinkedinIcon, Mail, MapIcon, MapPin, Phone } from 'lucide-react'
 
 
 
@@ -46,9 +50,9 @@ function App() {
         </p>
       </div>
       <section className='flex justify-center gap-4 mb-10'>
-          <button className='get-in-touch'>
+          {/* <button className='get-in-touch'>
               Get In Touch
-          </button>
+          </button> */}
           
           <button  className='download-cv'>
             <a className='text-white' href={ResumeFile} download>
@@ -145,10 +149,18 @@ function App() {
     </div>
   </div>
 </section>
-<footer className=' bg-[#1E1E1D] mt-20 h-[100px] p-6 text-left flex flex-col gap-2 font-semibold'> 
-    <p className='flex gap-5'><Mail/> ayubhussein625@gmail.com</p>
-    <p className='flex gap-5'><MapPin/> Edmonton, Alberta</p>
-    <p className='flex gap-5'><Phone/> 825-461-1459</p>
+<footer className='  mt-20 h-[100px] p-6 text-left flex flex-col gap-2 font-semibold'> 
+  <div className='flex gap-4'>
+    <a href='https://github.com/ayubh21'>
+      <img height={40} width={40} src={GithubIcon}/>
+    </a>
+    <a href='https://linkedin.com/in/ayubhussein21'>
+      <img height={40} width={40} src={LinkedinInIcon}/>
+    </a>
+    <a href='https://x.com/AyubHus40421689'>
+      <img height={40} width={40} src={X}/>
+    </a>
+  </div>
 </footer>
     </div>
     </>
