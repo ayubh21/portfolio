@@ -27,7 +27,7 @@ function App() {
     <>
     <div className=''>
       {/* <Navbar/> */}
-      <div className='mt-100'>
+      <div className='mt-60'>
         <h2 className='font-bold text-7xl mb-20'>Hi, I'm Ayub 👋</h2>
         <motion.h3 
         style={{overflow: "hidden", whiteSpace: "nowrap"}}
