@@ -12,7 +12,6 @@ import DotnetLogo  from "../src/assets/dotnet.svg"
 import AWSLogo from "../src/assets/aws.svg"
 import PostgresLogo from "../src/assets/postgresql.svg"
 import ResumeFile from "../src/assets/ayub-resume.pdf"
-import ProjectCard from './components/recent-work-card'
 import {motion} from "framer-motion"
 import LinkedinInIcon from "../src/assets/linkedin-svgrepo-com.svg"
 import GithubIcon from "../src/assets/github.svg"
