@@ -11,7 +11,7 @@ import MysqlLogo from "../src/assets/mysql.svg"
 import DotnetLogo  from "../src/assets/dotnet.svg"
 import AWSLogo from "../src/assets/aws.svg"
 import PostgresLogo from "../src/assets/postgresql.svg"
-import ResumeFile from "../src/assets/ayubs_resume.pdf"
+import ResumeFile from "../src/assets/ayub-resume.pdf"
 import ProjectCard from './components/recent-work-card'
 import {motion} from "framer-motion"
 import LinkedinInIcon from "../src/assets/linkedin-svgrepo-com.svg"
@@ -67,7 +67,7 @@ function App() {
         </div>
         </div>
       </section>
-      <section   
+      {/* <section   
       className='mb-20 '>
         <h3 className='text-[#c5c5c5] font-semibold mb-6'>MY RECENT WORK</h3>
           <div className='grid justify-center gap-4'>
@@ -93,7 +93,7 @@ function App() {
             </span> 
             </div>
           </div>
-      </section>
+      </section> */}
       <section className='flex flex-col items-center px-4'>
   <div className='flex items-center gap-4 mb-12'>
     <h3 className='text-[#c5c5c5] font-semibold text-lg '>PROJECTS</h3>
