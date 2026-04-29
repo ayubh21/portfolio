@@ -12,7 +12,7 @@ import DotnetLogo  from "../src/assets/dotnet.svg"
 import AWSLogo from "../src/assets/aws.svg"
 import PostgresLogo from "../src/assets/postgresql.svg"
 import ResumeFile from "../src/assets/ayubs_resume.pdf"
-import ProjectCard from './components/recent-work-card'
+import WorkExperience from './components/work-experience'
 import {motion} from "framer-motion"
 import LinkedinInIcon from "../src/assets/linkedin-svgrepo-com.svg"
 import GithubIcon from "../src/assets/github.svg"
@@ -67,33 +67,7 @@ function App() {
         </div>
         </div>
       </section>
-      <section   
-      className='mb-20 '>
-        <h3 className='text-[#c5c5c5] font-semibold mb-6'>MY RECENT WORK</h3>
-          <div className='grid justify-center gap-4'>
-            <div 
-            className=' '>
-          <ProjectCard src='https://www.yegmuslimconnect.ca' img='../src/assets/ymc.png' description='' tool='Next.JS'/>
-            </div>
-          <div className='flex justify-center gap-3'>
-           <span className="inline-flex items-center rounded-md bg-black px-2 py-1 text-sm font-medium text-white ring-1 ring--400/30 ring-inset">
-           Next.js
-            </span> 
-           <span className="inline-flex items-center rounded-md bg-black px-2 py-1 text-sm font-medium text-white ring-1 ring--400/30 ring-inset">
-           Typescript
-            </span> 
-           <span className="inline-flex items-center rounded-md bg-black px-2 py-1 text-sm font-medium text-white ring-1 ring--400/30 ring-inset">
-            Tailwind 
-            </span> 
-           <span className="inline-flex items-center rounded-md bg-black px-2 py-1 text-sm font-medium text-white ring-1 ring--400/30 ring-inset">
-           AWS S3
-            </span> 
-           <span className="inline-flex items-center rounded-md bg-black px-2 py-1 text-sm font-medium text-white ring-1 ring--400/30 ring-inset">
-           Postgres DB
-            </span> 
-            </div>
-          </div>
-      </section>
+      <WorkExperience/>
       <section className='flex flex-col items-center px-4'>
   <div className='flex items-center gap-4 mb-12'>
     <h3 className='text-[#c5c5c5] font-semibold text-lg '>PROJECTS</h3>
