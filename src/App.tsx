@@ -11,7 +11,7 @@ import MysqlLogo from "../src/assets/mysql.svg"
 import DotnetLogo  from "../src/assets/dotnet.svg"
 import AWSLogo from "../src/assets/aws.svg"
 import PostgresLogo from "../src/assets/postgresql.svg"
-import ResumeFile from "../src/assets/ayubs_resume.pdf"
+import ResumeFile from "../src/assets/ayub-resume.pdf"
 import WorkExperience from './components/work-experience'
 import {motion} from "framer-motion"
 import LinkedinInIcon from "../src/assets/linkedin-svgrepo-com.svg"
