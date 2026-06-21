@@ -68,51 +68,48 @@ function App() {
         </div>
       </section>
       <WorkExperience/>
-      <section className='flex flex-col items-center px-4'>
-  <div className='flex items-center gap-4 mb-12'>
-    <h3 className='text-[#c5c5c5] font-semibold text-lg '>PROJECTS</h3>
-  </div> 
-  <div className='max-w-4xl w-full space-y-8 text-left'>
-    <div className='group bg-gradient-to-br from-[#1E1E1D] to-[#161616] p-8 rounded-lg border border-[#333] hover:border-[#555] transition-all duration-300 hover:shadow-lg hover:shadow-black/20 hover:-translate-y-1'>
-      <div className='flex justify-between items-start mb-6'>
-        <h4 className='font-semibold text-2xl text-white group-hover:text-orange-500 transition-colors duration-300'>Mindful Scan</h4>   
-        <span className='text-[#888] text-sm font-mono bg-[#0a0a0a] px-3 py-1 rounded-full'>JAN 2024</span>
-      </div> 
-      <p className='text-[#e0e0e0] text-lg leading-relaxed mb-4'>MindfulScan is a GPT-4-powered content moderation tool built with React and Go to identify and flag inappropriate content in real time.</p>
+      <section className='flex flex-col items-center px-4 mb-16'>
+  <h3 className='text-[#c5c5c5] font-semibold text-lg mb-10'>PROJECTS</h3>
+  <div className='max-w-4xl w-full grid sm:grid-cols-2 gap-6 text-left'>
+    <div className='group rounded-xl border border-[#2a2a2a] bg-[#141414] p-6 hover:border-[#444] transition-colors duration-300'>
+      <div className='flex justify-between items-start gap-3 mb-2'>
+        <h4 className='font-semibold text-lg text-white group-hover:text-orange-500 transition-colors duration-300'>Mindful Scan</h4>
+        <span className='text-[#888] text-xs font-mono whitespace-nowrap'>JAN 2024</span>
+      </div>
+      <p className='text-[#a0a0a0] text-sm leading-relaxed mb-3'>GPT-4-powered content moderation tool built with React and Go to identify and flag inappropriate content in real time.</p>
       <div className='flex flex-wrap gap-2'>
-        <span className='text-xs bg-blue-900/30 text-blue-300 px-2 py-1 rounded'>ReactJS</span>
-        <span className='text-xs bg-blue-900/30 text-blue-300 px-2 py-1 rounded'>TypeScript</span>
-        <span className='text-xs bg-green-900/30 text-green-300 px-2 py-1 rounded'>Golang</span>
-        <span className='text-xs bg-purple-900/30 text-purple-300 px-2 py-1 rounded'>GPT-4</span>
+        <span className='text-xs bg-blue-900/30 text-blue-300 px-2 py-0.5 rounded'>React</span>
+        <span className='text-xs bg-blue-900/30 text-blue-300 px-2 py-0.5 rounded'>TypeScript</span>
+        <span className='text-xs bg-green-900/30 text-green-300 px-2 py-0.5 rounded'>Golang</span>
+        <span className='text-xs bg-purple-900/30 text-purple-300 px-2 py-0.5 rounded'>GPT-4</span>
       </div>
     </div>
 
-    <div className='group bg-gradient-to-br from-[#1E1E1D] to-[#161616] p-8 rounded-lg border border-[#333] hover:border-[#555] transition-all duration-300 hover:shadow-lg hover:shadow-black/20 hover:-translate-y-1'>
-      <div className='flex justify-between items-start mb-6'>
-        <h4 className='font-semibold text-2xl text-white group-hover:text-orange-500 transition-colors duration-300'>Premier Stays Capstone</h4>   
-        <span className='text-[#888] text-sm font-mono bg-[#0a0a0a] px-3 py-1 rounded-full'>JAN - APR 2025</span>
-      </div> 
-      <p className='text-[#e0e0e0] text-lg leading-relaxed mb-4'>Collaborated with a team of four to revamp a third-party listing service using Next.js, TypeScript, Golang, Google Maps API, and AWS S3 for direct property listings with geolocation and secure image uploads.</p>
+    <div className='group rounded-xl border border-[#2a2a2a] bg-[#141414] p-6 hover:border-[#444] transition-colors duration-300'>
+      <div className='flex justify-between items-start gap-3 mb-2'>
+        <h4 className='font-semibold text-lg text-white group-hover:text-orange-500 transition-colors duration-300'>Premier Stays Capstone</h4>
+        <span className='text-[#888] text-xs font-mono whitespace-nowrap'>JAN - APR 2025</span>
+      </div>
+      <p className='text-[#a0a0a0] text-sm leading-relaxed mb-3'>Revamped a third-party listing service with a team of four, adding direct property listings with geolocation and secure image uploads.</p>
       <div className='flex flex-wrap gap-2'>
-        <span className='text-xs bg-gray-700/50 text-gray-300 px-2 py-1 rounded'>Next.js</span>
-        <span className='text-xs bg-blue-900/30 text-blue-300 px-2 py-1 rounded'>TypeScript</span>
-        <span className='text-xs bg-green-900/30 text-green-300 px-2 py-1 rounded'>Golang</span>
-        <span className='text-xs bg-red-900/30 text-red-300 px-2 py-1 rounded'>Google Maps API</span>
-        <span className='text-xs bg-orange-900/30 text-orange-300 px-2 py-1 rounded'>AWS S3</span>
+        <span className='text-xs bg-gray-700/50 text-gray-300 px-2 py-0.5 rounded'>Next.js</span>
+        <span className='text-xs bg-blue-900/30 text-blue-300 px-2 py-0.5 rounded'>TypeScript</span>
+        <span className='text-xs bg-green-900/30 text-green-300 px-2 py-0.5 rounded'>Golang</span>
+        <span className='text-xs bg-red-900/30 text-red-300 px-2 py-0.5 rounded'>Google Maps API</span>
       </div>
     </div>
 
-    <div className='group bg-gradient-to-br from-[#1E1E1D] to-[#161616] p-8 rounded-lg border border-[#333] hover:border-[#555] transition-all duration-300 hover:shadow-lg hover:shadow-black/20 hover:-translate-y-1'>
-      <div className='flex justify-between items-start mb-6'>
-        <h4 className='font-semibold text-2xl text-white group-hover:text-orange-500 transition-colors duration-300'>ShopSmart</h4>   
-        <span className='text-[#888] text-sm font-mono bg-[#0a0a0a] px-3 py-1 rounded-full'>FEB 2025</span>
-      </div> 
-      <p className='text-[#e0e0e0] text-lg leading-relaxed mb-4'> Full-stack mobile application built in Flutter that compares grocery prices across multiple retailers</p>
+    <div className='group rounded-xl border border-[#2a2a2a] bg-[#141414] p-6 hover:border-[#444] transition-colors duration-300'>
+      <div className='flex justify-between items-start gap-3 mb-2'>
+        <h4 className='font-semibold text-lg text-white group-hover:text-orange-500 transition-colors duration-300'>Edmonton Muslim Directory</h4>
+        <span className='text-[#888] text-xs font-mono whitespace-nowrap'>APR 2025 - PRESENT</span>
+      </div>
+      <p className='text-[#a0a0a0] text-sm leading-relaxed mb-3'>Business directory connecting the Edmonton Muslim community with local Muslim-owned businesses, with map-based search and an admin dashboard for listings.</p>
       <div className='flex flex-wrap gap-2'>
-        <span className='text-xs bg-green-900/30 text-green-300 px-2 py-1 rounded'>Express.js</span>
-        <span className='text-xs bg-green-900/30 text-green-300 px-2 py-1 rounded'>Node.js</span>
-        <span className='text-xs bg-cyan-900/30 text-cyan-300 px-2 py-1 rounded'>Flutter</span>
-        <span className='text-xs bg-cyan-900/30 text-cyan-300 px-2 py-1 rounded'>Dart</span>
+        <span className='text-xs bg-gray-700/50 text-gray-300 px-2 py-0.5 rounded'>Next.js</span>
+        <span className='text-xs bg-blue-900/30 text-blue-300 px-2 py-0.5 rounded'>TypeScript</span>
+        <span className='text-xs bg-purple-900/30 text-purple-300 px-2 py-0.5 rounded'>Drizzle ORM</span>
+        <span className='text-xs bg-red-900/30 text-red-300 px-2 py-0.5 rounded'>Google Maps API</span>
       </div>
     </div>
   </div>
