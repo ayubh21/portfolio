@@ -14,7 +14,6 @@ import PostgresLogo from "../src/assets/postgresql.svg"
 import ResumeFile from "../src/assets/ayub-resume.pdf"
 import Navbar from './components/navbar'
 import WorkExperience from './components/work-experience'
-import {motion} from "framer-motion"
 import { MapPin } from "lucide-react"
 import LinkedinInIcon from "../src/assets/linkedin-svgrepo-com.svg"
 import GithubIcon from "../src/assets/github.svg"
