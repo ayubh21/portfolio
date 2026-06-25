@@ -18,6 +18,15 @@ const experiences = [
     tagColor: "orange",
   },
   {
+    title: "Software Developer Capstone",
+    company: "Premier Stays",
+    period: "JAN 2025 – APR 2025",
+    summary:
+      "Collaborated with a team of four to revamp a third-party listing service, enabling direct property listings on the company's website. Integrated Google Maps and AWS S3 into a unified platform to automate data flow between systems, configured cloud storage with proper permissions and security policies, and implemented dynamic pricing logic driven by live market data.",
+    tags: ["Full-Stack", "AWS", "Google Maps API"],
+    tagColor: "teal",
+  },
+  {
     title: "Seasonal Sales Associate",
     company: "Mark's",
     period: "SEP 2024 – DEC 2024",
@@ -42,11 +51,12 @@ const tagStyles: Record<string, string> = {
   orange: "bg-orange-900/30 text-orange-300",
   green: "bg-green-900/30 text-green-300",
   purple: "bg-purple-900/30 text-purple-300",
+  teal: "bg-teal-900/30 text-teal-300",
 }
 
 export default function WorkExperience() {
   return (
-    <section className="flex flex-col items-center px-4 mb-16">
+    <section id="experience" className="flex flex-col items-center px-4 mb-16">
       <h3 className="text-[#c5c5c5] font-semibold text-lg mb-10">WORK EXPERIENCE</h3>
       <div className="max-w-3xl w-full border-l border-[#2a2a2a] pl-8 space-y-8">
         {experiences.map((exp) => (

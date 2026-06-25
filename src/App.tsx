@@ -12,30 +12,32 @@ import DotnetLogo  from "../src/assets/dotnet.svg"
 import AWSLogo from "../src/assets/aws.svg"
 import PostgresLogo from "../src/assets/postgresql.svg"
 import ResumeFile from "../src/assets/ayub-resume.pdf"
+import Navbar from './components/navbar'
 import WorkExperience from './components/work-experience'
 import {motion} from "framer-motion"
+import { MapPin } from "lucide-react"
 import LinkedinInIcon from "../src/assets/linkedin-svgrepo-com.svg"
 import GithubIcon from "../src/assets/github.svg"
 import X from "../src/assets/x.svg"
-
-
-
-
 function App() {
   const icons = [JavascriptLogo,PythonLogo,TypescriptLogo,TailwindcssLogo,ReactLogo,NextLogo,DockerIcon,GoLogo,MysqlLogo,DotnetLogo,AWSLogo,PostgresLogo]
   return (
     <>
     <div className=''>
-      {/* <Navbar/> */}
-      <div className='mt-60'>
-        <h2 className='font-bold text-7xl mb-20'>Hi, I'm Ayub 👋</h2>
-        <motion.h3 
+      <Navbar/>
+      <div id='home' className='pt-44'>
+        <div className='flex items-center justify-center gap-2 text-[#8591A0] text-sm mb-6'>
+          <MapPin size={16} />
+          <span>Edmonton, AB</span>
+        </div>
+        <h2 className='font-bold text-5xl sm:text-7xl mb-2'>I'm Ayub Hussein</h2>
+        <motion.h3
         style={{overflow: "hidden", whiteSpace: "nowrap"}}
         initial={{width: 0}}
         animate={{width: "100%"}}
         transition={{duration: 2, ease: "easeInOut"}}
-        >   
-        <span className='font-bold text-7xl'>I build stuff <span className='text-orange-400'> sometimes</span></span>
+        >
+        <span className='font-bold text-5xl sm:text-7xl'>Full-Stack <span className='text-orange-400'>Developer</span></span>
         </motion.h3>
       </div>
       <div className='text-[#8591A0] text-center  justify-center flex my-10'>
@@ -44,31 +46,28 @@ function App() {
           Building responsive applications, or optimizing performance, I'm always excited to take on the next development challenge.
         </p>
       </div>
-      <section className='flex justify-center gap-4 mb-10'>
-          {/* <button className='get-in-touch'>
-              Get In Touch
-          </button> */}
-          
-          <button  className='download-cv'>
-            <a className='text-white' href={ResumeFile} download>
-              Download CV
-            </a>
-          </button>
+      <section className='flex justify-center gap-4 mb-20'>
+          <a href={ResumeFile} download className='download-cv'>
+            Download CV
+          </a>
+          <a href='#projects' className='see-my-work'>
+            See my work
+          </a>
       </section>
-      <section className='mb-20'>  
-        <h3 className='text-[#c5c5c5] font-semibold mb-6'>EXPERIENCE WITH</h3>
+      <section className='mb-20'>
+        <h3 className='text-[#c5c5c5] font-semibold mb-6'>TECHNOLOGIES I USE</h3>
         <div className='flex justify-center'>
-        <div className='flex justify-center gap-6 flex-wrap w-[550px] items-center'>
-          {icons.map((icon) => (
-            <div className=''>
-              <img className='w-16' src={icon}/>
+        <div className='flex justify-center gap-3 flex-wrap max-w-2xl items-center'>
+          {icons.map((icon, i) => (
+            <div key={i} className='flex items-center justify-center w-14 h-14 rounded-xl border border-[#2a2a2a] bg-[#141414] hover:border-[#444] transition-colors duration-300'>
+              <img className='w-7' src={icon}/>
             </div>
           ))}
         </div>
         </div>
       </section>
       <WorkExperience/>
-      <section className='flex flex-col items-center px-4 mb-16'>
+      <section id='projects' className='flex flex-col items-center px-4 mb-16'>
   <h3 className='text-[#c5c5c5] font-semibold text-lg mb-10'>PROJECTS</h3>
   <div className='max-w-4xl w-full grid sm:grid-cols-2 gap-6 text-left'>
     <div className='group rounded-xl border border-[#2a2a2a] bg-[#141414] p-6 hover:border-[#444] transition-colors duration-300'>
@@ -84,21 +83,6 @@ function App() {
         <span className='text-xs bg-purple-900/30 text-purple-300 px-2 py-0.5 rounded'>GPT-4</span>
       </div>
     </div>
-
-    <div className='group rounded-xl border border-[#2a2a2a] bg-[#141414] p-6 hover:border-[#444] transition-colors duration-300'>
-      <div className='flex justify-between items-start gap-3 mb-2'>
-        <h4 className='font-semibold text-lg text-white group-hover:text-orange-500 transition-colors duration-300'>Premier Stays Capstone</h4>
-        <span className='text-[#888] text-xs font-mono whitespace-nowrap'>JAN - APR 2025</span>
-      </div>
-      <p className='text-[#a0a0a0] text-sm leading-relaxed mb-3'>Revamped a third-party listing service with a team of four, adding direct property listings with geolocation and secure image uploads.</p>
-      <div className='flex flex-wrap gap-2'>
-        <span className='text-xs bg-gray-700/50 text-gray-300 px-2 py-0.5 rounded'>Next.js</span>
-        <span className='text-xs bg-blue-900/30 text-blue-300 px-2 py-0.5 rounded'>TypeScript</span>
-        <span className='text-xs bg-green-900/30 text-green-300 px-2 py-0.5 rounded'>Golang</span>
-        <span className='text-xs bg-red-900/30 text-red-300 px-2 py-0.5 rounded'>Google Maps API</span>
-      </div>
-    </div>
-
     <div className='group rounded-xl border border-[#2a2a2a] bg-[#141414] p-6 hover:border-[#444] transition-colors duration-300'>
       <div className='flex justify-between items-start gap-3 mb-2'>
         <h4 className='font-semibold text-lg text-white group-hover:text-orange-500 transition-colors duration-300'>Edmonton Muslim Directory</h4>
