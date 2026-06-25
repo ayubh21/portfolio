@@ -31,18 +31,18 @@ function App() {
           <span>Edmonton, AB</span>
         </div>
         <h2 className='font-bold text-5xl sm:text-7xl mb-2'>I'm Ayub Hussein</h2>
-        <motion.h3
+        {/* <motion.h3
         style={{overflow: "hidden", whiteSpace: "nowrap"}}
         initial={{width: 0}}
         animate={{width: "100%"}}
         transition={{duration: 2, ease: "easeInOut"}}
         >
         <span className='font-bold text-5xl sm:text-7xl'>Full-Stack <span className='text-orange-400'>Developer</span></span>
-        </motion.h3>
+        </motion.h3> */}
       </div>
       <div className='text-[#8591A0] text-center  justify-center flex my-10'>
         <p className='w-[500px]'>
-          I am a passionate full-stack developer with a knack for transforming complex challenges into elegant solutions through code.
+          I am a passionate developer with a knack for transforming complex challenges into elegant solutions through code.
           Building responsive applications, or optimizing performance, I'm always excited to take on the next development challenge.
         </p>
       </div>
