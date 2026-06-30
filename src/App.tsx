@@ -14,10 +14,7 @@ import PostgresLogo from "../src/assets/postgresql.svg"
 import ResumeFile from "../src/assets/ayub-resume.pdf"
 import Navbar from './components/navbar'
 import WorkExperience from './components/work-experience'
-import { MapPin } from "lucide-react"
-import LinkedinInIcon from "../src/assets/linkedin-svgrepo-com.svg"
-import GithubIcon from "../src/assets/github.svg"
-import X from "../src/assets/x.svg"
+import Projects from './components/projects'
 function App() {
   const icons = [JavascriptLogo,PythonLogo,TypescriptLogo,TailwindcssLogo,ReactLogo,NextLogo,DockerIcon,GoLogo,MysqlLogo,DotnetLogo,AWSLogo,PostgresLogo]
   return (
@@ -25,11 +22,7 @@ function App() {
     <div className=''>
       <Navbar/>
       <div id='home' className='pt-44'>
-        <div className='flex items-center justify-center gap-2 text-[#8591A0] text-sm mb-6'>
-          <MapPin size={16} />
-          <span>Edmonton, AB</span>
-        </div>
-        <h2 className='font-bold text-5xl sm:text-7xl mb-2'>I'm Ayub Hussein</h2>
+<h2 className='font-bold text-5xl sm:text-7xl mb-2'>I'm Ayub Hussein</h2>
         {/* <motion.h3
         style={{overflow: "hidden", whiteSpace: "nowrap"}}
         initial={{width: 0}}
@@ -66,50 +59,8 @@ function App() {
         </div>
       </section>
       <WorkExperience/>
-      <section id='projects' className='flex flex-col items-center px-4 mb-16'>
-  <h3 className='text-[#c5c5c5] font-semibold text-lg mb-10'>PROJECTS</h3>
-  <div className='max-w-4xl w-full grid sm:grid-cols-2 gap-6 text-left'>
-    <div className='group rounded-xl border border-[#2a2a2a] bg-[#141414] p-6 hover:border-[#444] transition-colors duration-300'>
-      <div className='flex justify-between items-start gap-3 mb-2'>
-        <h4 className='font-semibold text-lg text-white group-hover:text-orange-500 transition-colors duration-300'>Mindful Scan</h4>
-        <span className='text-[#888] text-xs font-mono whitespace-nowrap'>JAN 2024</span>
-      </div>
-      <p className='text-[#a0a0a0] text-sm leading-relaxed mb-3'>GPT-4-powered content moderation tool built with React and Go to identify and flag inappropriate content in real time.</p>
-      <div className='flex flex-wrap gap-2'>
-        <span className='text-xs bg-blue-900/30 text-blue-300 px-2 py-0.5 rounded'>React</span>
-        <span className='text-xs bg-blue-900/30 text-blue-300 px-2 py-0.5 rounded'>TypeScript</span>
-        <span className='text-xs bg-green-900/30 text-green-300 px-2 py-0.5 rounded'>Golang</span>
-        <span className='text-xs bg-purple-900/30 text-purple-300 px-2 py-0.5 rounded'>GPT-4</span>
-      </div>
-    </div>
-    <div className='group rounded-xl border border-[#2a2a2a] bg-[#141414] p-6 hover:border-[#444] transition-colors duration-300'>
-      <div className='flex justify-between items-start gap-3 mb-2'>
-        <h4 className='font-semibold text-lg text-white group-hover:text-orange-500 transition-colors duration-300'>Edmonton Muslim Directory</h4>
-        <span className='text-[#888] text-xs font-mono whitespace-nowrap'>APR 2025 - PRESENT</span>
-      </div>
-      <p className='text-[#a0a0a0] text-sm leading-relaxed mb-3'>Business directory connecting the Edmonton Muslim community with local Muslim-owned businesses, with map-based search and an admin dashboard for listings.</p>
-      <div className='flex flex-wrap gap-2'>
-        <span className='text-xs bg-gray-700/50 text-gray-300 px-2 py-0.5 rounded'>Next.js</span>
-        <span className='text-xs bg-blue-900/30 text-blue-300 px-2 py-0.5 rounded'>TypeScript</span>
-        <span className='text-xs bg-purple-900/30 text-purple-300 px-2 py-0.5 rounded'>Drizzle ORM</span>
-        <span className='text-xs bg-red-900/30 text-red-300 px-2 py-0.5 rounded'>Google Maps API</span>
-      </div>
-    </div>
-  </div>
-</section>
-<footer className='  mt-20 h-[100px] p-6 text-left flex flex-col gap-2 font-semibold'> 
-  <div className='flex gap-4'>
-    <a href='https://github.com/ayubh21'>
-      <img height={40} width={40} src={GithubIcon}/>
-    </a>
-    <a href='https://linkedin.com/in/ayubhussein21'>
-      <img height={40} width={40} src={LinkedinInIcon}/>
-    </a>
-    <a href='https://x.com/AyubHus40421689'>
-      <img height={40} width={40} src={X}/>
-    </a>
-  </div>
-</footer>
+      <Projects/>
+<footer className='mt-20 h-16' />
     </div>
     </>
   )

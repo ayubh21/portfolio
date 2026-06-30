@@ -1,4 +1,7 @@
 import ResumeFile from "../assets/ayub-resume.pdf"
+import GithubIcon from "../assets/github.svg"
+import LinkedinInIcon from "../assets/linkedin-svgrepo-com.svg"
+import X from "../assets/x.svg"
 
 const navLinks = [
   { label: "Home", href: "#home" },
@@ -22,13 +25,24 @@ export default function Navbar() {
             </li>
           ))}
         </ul>
-        <a
-          href={ResumeFile}
-          download
-          className="text-sm font-medium bg-white text-black rounded-full px-4 py-1.5 hover:bg-gray-200 transition-colors duration-200 shrink-0"
-        >
-          Resume
-        </a>
+        <div className="flex items-center gap-3 shrink-0">
+          <a href="https://github.com/ayubh21" target="_blank" rel="noopener noreferrer">
+            <img src={GithubIcon} width={20} height={20} alt="GitHub" className="opacity-70 hover:opacity-100 transition-opacity duration-200" />
+          </a>
+          <a href="https://linkedin.com/in/ayubhussein21" target="_blank" rel="noopener noreferrer">
+            <img src={LinkedinInIcon} width={20} height={20} alt="LinkedIn" className="opacity-70 hover:opacity-100 transition-opacity duration-200" />
+          </a>
+          <a href="https://x.com/AyubHus40421689" target="_blank" rel="noopener noreferrer">
+            <img src={X} width={20} height={20} alt="X" className="opacity-70 hover:opacity-100 transition-opacity duration-200" />
+          </a>
+          <a
+            href={ResumeFile}
+            download
+            className="text-sm font-medium bg-white text-black rounded-full px-4 py-1.5 hover:bg-gray-200 transition-colors duration-200"
+          >
+            Resume
+          </a>
+        </div>
       </nav>
     </header>
   )
