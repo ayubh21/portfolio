@@ -17,7 +17,7 @@ const projects = [
     description:
       "Business directory connecting the Edmonton Muslim community with local Muslim-owned businesses, with map-based search and an admin dashboard for listings.",
     stack: ["Next.js", "TypeScript", "Drizzle ORM", "Google Maps API"],
-    url: "https://edmonton-muslim-directory-v2-125cshtme-ayubs-projects.vercel.app/",
+    url: "https://edmonton-muslim-directory-v2.vercel.app?_vercel_share=SMzecHJcuvQJ2lW8F8KGXLeDCrcR2Ggw",
     preview: ymcPreview,
     type: "img" as const,
   },
