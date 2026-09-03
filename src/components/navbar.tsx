@@ -1,4 +1,4 @@
-import ResumeFile from "../assets/ayub-resume.pdf"
+import ResumeFile from "../assets/hussein_ayubs_resume.pdf"
 import GithubIcon from "../assets/github.svg"
 import LinkedinInIcon from "../assets/linkedin-svgrepo-com.svg"
 import X from "../assets/x.svg"

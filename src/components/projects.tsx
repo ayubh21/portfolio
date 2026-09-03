@@ -1,5 +1,3 @@
-import ymcPreview from "../assets/ymc.png"
-
 const projects = [
   {
     title: "Mindful Scan",
@@ -11,16 +9,16 @@ const projects = [
     preview: "https://mindfulscan.up.railway.app/",
     type: "iframe" as const,
   },
-  {
-    title: "Edmonton Muslim Directory",
-    period: "APR 2024 - JUN 2024",
-    description:
-      "Business directory connecting the Edmonton Muslim community with local Muslim-owned businesses, with map-based search and an admin dashboard for listings.",
-    stack: ["Next.js", "TypeScript", "Drizzle ORM", "Google Maps API"],
-    url: "https://edmonton-muslim-directory-v2.vercel.app?_vercel_share=SMzecHJcuvQJ2lW8F8KGXLeDCrcR2Ggw",
-    preview: ymcPreview,
-    type: "img" as const,
-  },
+  // {
+  //   title: "Edmonton Muslim Directory",
+  //   period: "APR 2024 - JUN 2024",
+  //   description:
+  //     "Business directory connecting the Edmonton Muslim community with local Muslim-owned businesses, with map-based search and an admin dashboard for listings.",
+  //   stack: ["Next.js", "TypeScript", "Drizzle ORM", "Google Maps API"],
+  //   url: "https://edmonton-muslim-directory-v2.vercel.app?_vercel_share=SMzecHJcuvQJ2lW8F8KGXLeDCrcR2Ggw",
+  //   preview: ymcPreview,
+  //   type: "img" as const,
+  // },
 ]
 
 export default function Projects() {

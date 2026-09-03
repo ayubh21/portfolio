@@ -1,43 +1,19 @@
 const experiences = [
   {
-    title: "Software Engineer Intern",
+    title: "Full-Stack Developer",
     company: "MDremit",
-    period: "SEP 2025 – APR 2026",
+    period: "DEC 2024 – PRESENT",
     summary:
-      "Designed and maintained the backend of a cloud-based medical billing system, building secure claim-processing pipelines for automated submission to Teleplan.",
-    tags: ["Backend", "Cloud", "Healthcare"],
+      "Designed, built, and deployed features for a production medical billing platform using React, TypeScript, and Node.js, owning delivery end-to-end for physicians and clinic staff. Integrated third-party billing and AI APIs, including GPT-4, with validation and error-handling layers, delivering a secure claim submission workflow and reducing manual review effort by 15%. Utilized Git and CI/CD pipelines for automated builds and deployments, monitoring production with Grafana and Loki.",
+    tags: ["React", "TypeScript", "Node.js", "GPT-4"],
   },
   {
-    title: "Frontend Developer Capstone",
-    company: "Ledcor",
-    period: "JAN 2024 – APR 2024",
-    summary:
-      "Built a video tagging system in partnership with Ledcor, enabling project- and tag-based video search through close collaboration with the client.",
-    tags: ["Frontend", "React"],
-  },
-  {
-    title: "Software Developer Capstone",
+    title: "Software Developer Intern",
     company: "Premier Stays",
-    period: "JAN 2025 – APR 2025",
+    period: "SEP 2023 – AUG 2024",
     summary:
-      "Collaborated with a team of four to revamp a third-party listing service, enabling direct property listings on the company's website. Integrated Google Maps and AWS S3 into a unified platform to automate data flow between systems, configured cloud storage with proper permissions and security policies, and implemented dynamic pricing logic driven by live market data.",
-    tags: ["Full-Stack", "AWS", "Google Maps API"],
-  },
-  {
-    title: "Seasonal Sales Associate",
-    company: "Mark's",
-    period: "SEP 2024 – DEC 2024",
-    summary:
-      "Delivered attentive customer service and kept merchandising organized during a high-volume seasonal retail period.",
-    tags: ["Customer Service", "Retail"],
-  },
-  {
-    title: "Retail Sales Associate",
-    company: "Under Armour",
-    period: "FEB 2021 – MAY 2023",
-    summary:
-      "Provided personalized product recommendations and mentored new team members in a fast-paced retail environment.",
-    tags: ["Sales", "Mentorship"],
+      "Supported project delivery across the Software Development Life Cycle, contributing to design, implementation, testing, and release of a Next.js and TypeScript booking platform that replaced a third-party listing service. Built responsive UI components for listing search, filtering, and booking flows, and integrated the Google Maps API and AWS S3-backed media uploads to deliver new product capabilities.",
+    tags: ["Next.js", "TypeScript", "AWS", "Google Maps API"],
   },
 ]
 
