@@ -23,14 +23,6 @@ const experiences = [
       "Collaborated on the building of a searchable video tagging system frontend application, within a team of four.",
     tags: ["Frontend", "React"],
   },
-  {
-    title: "Sales Associate",
-    company: "Under Armour",
-    period: "SEP 2021 – MAY 2023",
-    summary:
-      "Provided personalized product recommendations and mentored new team members in a fast-paced retail environment.",
-    tags: ["Sales", "Mentorship"],
-  },
 ]
 
 export default function WorkExperience() {
