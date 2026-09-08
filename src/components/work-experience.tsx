@@ -1,19 +1,35 @@
 const experiences = [
   {
-    title: "Full-Stack Developer",
+    title: "Software Developer Intern",
     company: "MDremit",
-    period: "DEC 2024 – PRESENT",
+    period: "SEP 2025 – APR 2026",
     summary:
-      "Designed, built, and deployed features for a production medical billing platform using React, TypeScript, and Node.js, owning delivery end-to-end for physicians and clinic staff. Integrated third-party billing and AI APIs, including GPT-4, with validation and error-handling layers, delivering a secure claim submission workflow and reducing manual review effort by 15%. Utilized Git and CI/CD pipelines for automated builds and deployments, monitoring production with Grafana and Loki.",
-    tags: ["React", "TypeScript", "Node.js", "GPT-4"],
+      "Tasked with aiding in the construction and building of a cloud-based medical billing system startup aimed at reducing administrative burden for physicians submitting patient claims.",
+    tags: ["TypeScript", "Docker", "React", "Node.js"],
   },
   {
     title: "Software Developer Intern",
-    company: "Premier Stays",
-    period: "SEP 2023 – AUG 2024",
+    company: "Premier Stays Property Management",
+    period: "SEP 2024 – APR 2025",
     summary:
-      "Supported project delivery across the Software Development Life Cycle, contributing to design, implementation, testing, and release of a Next.js and TypeScript booking platform that replaced a third-party listing service. Built responsive UI components for listing search, filtering, and booking flows, and integrated the Google Maps API and AWS S3-backed media uploads to deliver new product capabilities.",
-    tags: ["Next.js", "TypeScript", "AWS", "Google Maps API"],
+      "Supported project delivery across the Software Development Life Cycle, contributing to design, implementation, testing, and release of a Next.js and TypeScript booking platform that replaced a third-party listing service.",
+    tags: ["Next.js", "TypeScript", "AWS"],
+  },
+  {
+    title: "Frontend Developer",
+    company: "Ledcor",
+    period: "JAN 2024 – APR 2024",
+    summary:
+      "Collaborated on the building of a searchable video tagging system frontend application, within a team of four.",
+    tags: ["Frontend", "React"],
+  },
+  {
+    title: "Sales Associate",
+    company: "Under Armour",
+    period: "SEP 2021 – MAY 2023",
+    summary:
+      "Provided personalized product recommendations and mentored new team members in a fast-paced retail environment.",
+    tags: ["Sales", "Mentorship"],
   },
 ]
 
