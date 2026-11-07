@@ -14,7 +14,6 @@ import PostgresLogo from "../src/assets/postgresql.svg"
 import ResumeFile from "../src/assets/ayubs_resume.pdf"
 import Navbar from './components/navbar'
 import WorkExperience from './components/work-experience'
-import Projects from './components/projects'
 function App() {
   const icons = [JavascriptLogo,PythonLogo,TypescriptLogo,TailwindcssLogo,ReactLogo,NextLogo,DockerIcon,GoLogo,MysqlLogo,DotnetLogo,AWSLogo,PostgresLogo]
   return (
@@ -42,9 +41,6 @@ function App() {
           <a href={ResumeFile} download className='download-cv'>
             Download CV
           </a>
-          <a href='#projects' className='see-my-work'>
-            See my work
-          </a>
       </section>
       <section className='mb-20'>
         <h3 className='text-[#c5c5c5] font-semibold mb-6'>TECHNOLOGIES I USE</h3>
@@ -59,7 +55,6 @@ function App() {
         </div>
       </section>
       <WorkExperience/>
-      <Projects/>
 <footer className='mt-20 h-16' />
     </div>
     </>

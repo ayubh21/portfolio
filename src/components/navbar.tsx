@@ -6,7 +6,6 @@ import X from "../assets/x.svg"
 const navLinks = [
   { label: "Home", href: "#home" },
   { label: "Experience", href: "#experience" },
-  { label: "Projects", href: "#projects" },
 ]
 
 export default function Navbar() {
